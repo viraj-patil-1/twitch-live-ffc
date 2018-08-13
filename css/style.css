@@ -1,0 +1,43 @@
+body {
+  padding: 20px;
+  background: #fafafa;
+  position: relative;
+  
+}
+h1{
+  text-align:center;
+}
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 3px solid $container;
+
+}
+.row {
+  margin: 2px 2px 2px 2px;
+  padding: 5px;
+  line-height: 50px;
+  border:solid;
+  
+}
+.con{
+ position:relative;
+ margin: 0px auto;
+ padding: 0px;
+ width: 600px;
+  display:table;
+  border:solid;
+  border-color:black;
+  border-radius:8px;
+}
+.mdl-tabs__tab-bar{
+  background-color:#FFF689; 
+}
+#name, #streaming {
+  line-height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
