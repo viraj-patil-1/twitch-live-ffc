@@ -1,4 +1,4 @@
-var channels=["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
+var channels=["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas","shroud"];
 
 function getApi(name,type){
   return 'https://wind-bow.gomix.me/twitch-api/' + type + '/' + name + '?callback=?';
